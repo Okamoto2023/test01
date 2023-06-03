@@ -4,6 +4,7 @@ from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, LSTM
 #git
+# add comment from test_v
 # CSVファイルを読み込み、Datetimeをインデックスとして設定する
 df = pd.read_csv('data.csv', index_col='Datetime', parse_dates=['Datetime'])
 
