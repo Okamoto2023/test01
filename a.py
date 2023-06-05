@@ -6,6 +6,7 @@ from tensorflow.keras.layers import Dense, LSTM
 #git
 # add comment from test_v
 # CSVファイルを読み込み、Datetimeをインデックスとして設定する
+# add comment for new local test_v
 df = pd.read_csv('data.csv', index_col='Datetime', parse_dates=['Datetime'])
 
 # 学習データの範囲を指定する
